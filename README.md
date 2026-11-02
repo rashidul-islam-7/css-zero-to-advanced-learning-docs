@@ -9,7 +9,7 @@ Complete CSS learning documentation from beginner to advanced.
 ## 📖 Learning Documentation
 
 1. [Part-1: CSS Fundamentals](./Part%201%3A%20Introduction%20to%20CSS.md)
-3. [Box Model & Typography](./02-box-model-typography/README.md)
+3. [Box Model & Typography](./Part%202%3A%20CSS%20Box%20Model%20%26%20Typography.md)
 4. [Display, Position & Layout](./03-display-position-layout/README.md)
 5. [Responsive Web Design](./04-responsive-web-design/README.md)
 6. [Advanced CSS Selectors](./05-advanced-selectors/README.md)
