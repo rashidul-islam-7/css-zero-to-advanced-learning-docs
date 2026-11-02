@@ -97,11 +97,10 @@ HTML ডকুমেন্টে তিনভাবে CSS যুক্ত ক�
 
 * **Multiple CSS Files (একাধিক সিএসএস ফাইল ব্যবহার করা):**
 বড় প্রজেক্টে কাজের সুবিধার্থে একাধিক CSS ফাইল (যেমন: `normalize.css`, `style.css`, `dashboard.css`) আলাদাভাবে তৈরি করে সবগুলোই HTML-এ লিংক করা যায়:
-
+```html
 <link rel="stylesheet" href="normalize.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="dashboard.css">
-
-
+```
 
 
