@@ -8,15 +8,15 @@
 
 এই Phase-এ আমরা শিখব কীভাবে CSS ব্যবহার করে একটি Website-এর Layout, Element Position এবং Content Arrangement নিয়ন্ত্রণ করতে হয়।
 
-এই Phase শেষ করার পর তুমি পারবে:
+এই Phase শেষ করার পরে:
 
-- CSS Display Properties ব্যবহার করে Element-এর Layout পরিবর্তন করতে।
-- বিভিন্ন Position ব্যবহার করে Element নির্দিষ্ট স্থানে রাখতে।
-- Z-index ও Stacking Context বুঝতে।
-- Overflow এবং Float Properties ব্যবহার করতে।
-- Flexbox দিয়ে One-dimensional Layout তৈরি করতে।
-- CSS Grid দিয়ে Two-dimensional Layout তৈরি করতে।
-- Responsive Navbar, Dashboard এবং Website Layout তৈরি করতে।
+- CSS Display Properties ব্যবহার করে Element-এর Layout পরিবর্তন করতে পারবে।
+- বিভিন্ন Position ব্যবহার করে Element নির্দিষ্ট স্থানে রাখতে পারবে।
+- Z-index ও Stacking Context বুঝতে পারবে।
+- Overflow এবং Float Properties ব্যবহার করতে পারবে।
+- Flexbox দিয়ে One-dimensional Layout তৈরি করতে পারবে।
+- CSS Grid দিয়ে Two-dimensional Layout তৈরি করতে পারবে।
+- Responsive Navbar, Dashboard এবং Website Layout তৈরি করতে পারবে।
 
 ---
 
