@@ -79,7 +79,7 @@ button:hover {
 
 **মনে রাখবে:** Touchscreen Device-এ Hover সবসময় Mouse-এর মতো কাজ করে না।
 
-### 1.1.2&#x20;
+### 1.1.2:active
 
 কোনো Element-এ Mouse Button চেপে ধরে রাখার সময় সেই Element-এর Style পরিবর্তন করার জন্য `:active` ব্যবহার করা হয়।
 
@@ -108,7 +108,7 @@ button:active {
 | Hover Effect তৈরি করে                      | Press Effect তৈরি করে               |
 | Pointer সরালে Hover State শেষ হয়           | Press ছেড়ে দিলে Active State শেষ হয় |
 
-### 1.1.3&#x20;
+### 1.1.3:focus
 
 কোনো Element Keyboard অথবা Mouse দিয়ে Focus অবস্থায় থাকলে সেটিকে Select করার জন্য `:focus` ব্যবহার করা হয়।
 
@@ -138,7 +138,7 @@ input:focus {
 - Search Box Design।
 - Login Form।
 
-### 1.1.4&#x20;
+### 1.1.4:focus-visible
 
 কোনো Element Keyboard Navigation-এর মাধ্যমে Focus হলে সাধারণত সেই Element-এ Focus Style Apply করার জন্য `:focus-visible` ব্যবহার করা হয়।
 
@@ -163,7 +163,7 @@ button:focus-visible {
 
 **মনে রাখবে:** Accessibility-এর জন্য `:focus-visible` খুবই গুরুত্বপূর্ণ।
 
-### 1.1.5&#x20;
+### 1.1.5:focus-within
 
 কোনো Parent Element অথবা তার ভেতরের যেকোনো Child Element Focus অবস্থায় থাকলে Parent Element Select করার জন্য `:focus-within` ব্যবহার করা হয়।
 
@@ -193,7 +193,7 @@ button:focus-visible {
 - Search Container Design।
 - Login Form Section।
 
-### 1.1.6&#x20;
+### 1.1.6:link
 
 যেসব Link এখনো Visited হয়নি, সেগুলো Select করার জন্য `:link` ব্যবহার করা হয়।
 
@@ -206,7 +206,7 @@ a:link {
 }
 ```
 
-### 1.1.7&#x20;
+### 1.1.7:visited
 
 User আগে Visit করেছে এমন Link Select করার জন্য `:visited` ব্যবহার করা হয়।
 
@@ -222,7 +222,7 @@ a:visited {
 
 **মনে রাখবে:** Browser Privacy-এর কারণে `:visited` দিয়ে সীমিত কিছু CSS Property-ই পরিবর্তন করা যায়।
 
-### 1.1.8&#x20;
+### 1.1.8:target
 
 URL-এর Hash Fragment-এর সঙ্গে যে Element-এর ID Match করবে, সেটিকে Select করার জন্য `:target` ব্যবহার করা হয়।
 
@@ -261,7 +261,7 @@ section:target {
 
 HTML Document-এর Structure এবং Element-এর Position অনুযায়ী নির্দিষ্ট Element Select করার জন্য Structural Pseudo Classes ব্যবহার করা হয়।
 
-### 1.2.1&#x20;
+### 1.2.1:first-child
 
 কোনো Parent Element-এর প্রথম Child Element Select করার জন্য `:first-child` ব্যবহার করা হয়।
 
@@ -285,7 +285,7 @@ li:first-child {
 
 এখানে প্রথম `li` অর্থাৎ HTML Red হবে।
 
-### 1.2.2&#x20;
+### 1.2.2:last-child
 
 কোনো Parent Element-এর শেষ Child Element Select করার জন্য `:last-child` ব্যবহার করা হয়।
 
@@ -299,7 +299,7 @@ li:last-child {
 
 এখানে শেষ `li` অর্থাৎ JavaScript Green হবে।
 
-### 1.2.3 ()
+### 1.2.3 :nth-child()
 
 Parent-এর Child Element-এর নির্দিষ্ট Position অনুযায়ী Element Select করার জন্য `:nth-child()` ব্যবহার করা হয়।
 
@@ -351,7 +351,7 @@ li:nth-child(3n) {
 | `3n + 1` | 1, 4, 7, 10...                        |
 | `n + 3`  | তৃতীয় Element থেকে পরবর্তী সব Element |
 
-### 1.2.4 ()
+### 1.2.4 nth-last-child()
 
 Parent-এর শেষ দিক থেকে গণনা করে নির্দিষ্ট Position-এর Child Select করার জন্য `:nth-last-child()` ব্যবহার করা হয়।
 
@@ -365,7 +365,7 @@ li:nth-last-child(2) {
 
 এখানে শেষ থেকে দ্বিতীয় Child Element Select হবে।
 
-### 1.2.5&#x20;
+### 1.2.5:first-of-type
 
 একই Parent-এর মধ্যে নির্দিষ্ট HTML Tag-এর প্রথম Element Select করার জন্য `:first-of-type` ব্যবহার করা হয়।
 
@@ -390,7 +390,7 @@ p:first-of-type {
 
 এখানে প্রথম `p` Element Select হবে, যদিও সেটি Parent-এর প্রথম Child নয়।
 
-### 1.2.6&#x20;
+### 1.2.6:last-of-type
 
 একই Parent-এর মধ্যে নির্দিষ্ট HTML Tag-এর শেষ Element Select করার জন্য `:last-of-type` ব্যবহার করা হয়।
 
@@ -404,8 +404,7 @@ p:last-of-type {
 
 এখানে শেষ `p` Element Select হবে।
 
-### 1.2.7 ()
-
+### 1.2.7 :nth-of-type()
 একই Parent-এর মধ্যে নির্দিষ্ট HTML Tag-এর Position অনুযায়ী Element Select করার জন্য `:nth-of-type()` ব্যবহার করা হয়।
 
 **CSS Syntax:**
@@ -418,7 +417,7 @@ p:nth-of-type(2) {
 
 এখানে দ্বিতীয় `p` Element Select হবে।
 
-### 1.2.8&#x20;
+### 1.2.8:only-child
 
 কোনো Parent Element-এর একমাত্র Child Element Select করার জন্য `:only-child` ব্যবহার করা হয়।
 
@@ -440,7 +439,7 @@ p:only-child {
 
 এখানে `p`-এর Parent-এর মধ্যে আর কোনো Child Element নেই। তাই এটি Select হবে।
 
-### 1.2.9&#x20;
+### 1.2.9:only-of-type
 
 কোনো Parent-এর মধ্যে নির্দিষ্ট HTML Tag-এর একটিমাত্র Element থাকলে সেটিকে Select করার জন্য `:only-of-type` ব্যবহার করা হয়।
 
@@ -464,7 +463,7 @@ h2:only-of-type {
 
 এখানে Parent-এর মধ্যে একটিমাত্র `h2` থাকায় সেটি Select হবে।
 
-### 1.2.10&#x20;
+### 1.2.10:empty
 
 যেসব Element-এর কোনো Child Element অথবা Text Content নেই, সেগুলো Select করার জন্য `:empty` ব্যবহার করা হয়।
 
@@ -492,7 +491,7 @@ h2:only-of-type {
 
 **মনে রাখবে:** Whitespace Text Node থাকলেও Element-টি `:empty` হিসেবে Match নাও করতে পারে।
 
-### 1.2.11&#x20;
+### 1.2.11:root
 
 HTML Document-এর Root Element Select করার জন্য `:root` ব্যবহার করা হয়।
 
@@ -527,7 +526,7 @@ button {
 
 HTML Form-এর Input, Checkbox, Radio Button এবং অন্যান্য Form Element-এর State অনুযায়ী Style Apply করার জন্য Form Pseudo Classes ব্যবহার করা হয়।
 
-### 1.3.1&#x20;
+### 1.3.1:checked
 
 যেসব Checkbox অথবা Radio Button Selected বা Checked অবস্থায় আছে, সেগুলো Select করার জন্য `:checked` ব্যবহার করা হয়।
 
@@ -548,7 +547,7 @@ input:checked {
 
 এখানে Checkbox Check করলে Green Accent Color দেখা যাবে।
 
-### 1.3.2&#x20;
+### 1.3.2:disabled
 
 যেসব Form Element Disabled অবস্থায় আছে, সেগুলো Select করার জন্য `:disabled` ব্যবহার করা হয়।
 
@@ -568,7 +567,7 @@ input:checked {
 }
 ```
 
-### 1.3.3&#x20;
+### 1.3.3:enabled
 
 যেসব Form Element ব্যবহার করার জন্য Enabled অবস্থায় আছে, সেগুলো Select করার জন্য `:enabled` ব্যবহার করা হয়।
 
@@ -580,7 +579,7 @@ input:enabled {
 }
 ```
 
-### 1.3.4&#x20;
+### 1.3.4:required
 
 যেসব Input Field-এ `required` Attribute দেওয়া আছে, সেগুলো Select করার জন্য `:required` ব্যবহার করা হয়।
 
@@ -598,7 +597,7 @@ input:required {
 }
 ```
 
-### 1.3.5&#x20;
+### 1.3.5:optional
 
 যেসব Input Field-এ `required` Attribute নেই, সেগুলো Select করার জন্য `:optional` ব্যবহার করা হয়।
 
@@ -610,7 +609,7 @@ input:optional {
 }
 ```
 
-### 1.3.6&#x20;
+### 1.3.6:valid
 
 কোনো Input Field-এর Value তার HTML Validation Rules অনুযায়ী Valid হলে `:valid` ব্যবহার করে সেটিকে Select করা যায়।
 
@@ -628,7 +627,7 @@ input:valid {
 }
 ```
 
-### 1.3.7&#x20;
+### 1.3.7:invalid
 
 কোনো Input Field-এর Value তার HTML Validation Rules অনুযায়ী Invalid হলে `:invalid` ব্যবহার করে সেটিকে Select করা যায়।
 
@@ -653,7 +652,7 @@ input:invalid {
 
 **মনে রাখবে:** শুধু `:invalid` ব্যবহার করলে Empty Required Input শুরু থেকেই Invalid দেখাতে পারে। তাই User Interaction-এর পর Validation Style দেখানোর জন্য `:not(:placeholder-shown):invalid` ব্যবহার করতে পারো।
 
-### 1.3.8&#x20;
+### 1.3.8:in-range
 
 যেসব Input-এর Numeric Value নির্ধারিত Minimum এবং Maximum Range-এর মধ্যে আছে, সেগুলো Select করার জন্য `:in-range` ব্যবহার করা হয়।
 
@@ -673,7 +672,7 @@ input:in-range {
 
 এখানে Value 1 থেকে 100-এর মধ্যে থাকলে Green Border হবে।
 
-### 1.3.9&#x20;
+### 1.3.9:out-of-range
 
 যেসব Input-এর Numeric Value নির্ধারিত Range-এর বাইরে আছে, সেগুলো Select করার জন্য `:out-of-range` ব্যবহার করা হয়।
 
@@ -685,7 +684,7 @@ input:out-of-range {
 }
 ```
 
-### 1.3.10&#x20;
+### 1.3.10:read-only
 
 যেসব Input Field Read-only অবস্থায় আছে, সেগুলো Select করার জন্য `:read-only` ব্যবহার করা হয়।
 
@@ -704,7 +703,7 @@ input:read-only {
 }
 ```
 
-### 1.3.11&#x20;
+### 1.3.11:read-write
 
 যেসব Element-এর Content User পরিবর্তন করতে পারে, সেগুলো Select করার জন্য `:read-write` ব্যবহার করা হয়।
 
@@ -725,7 +724,7 @@ textarea:read-write {
 }
 ```
 
-### 1.3.12&#x20;
+### 1.3.12:placeholder-shown
 
 কোনো Input Field-এ Placeholder এখনো প্রদর্শিত হচ্ছে অর্থাৎ Input Field-এ User কোনো Value দেয়নি, এমন অবস্থায় Element Select করার জন্য `:placeholder-shown` ব্যবহার করা হয়।
 
@@ -766,7 +765,7 @@ input:placeholder-shown {
 
 Advanced Pseudo Classes ব্যবহার করে একাধিক Selector একসঙ্গে লেখা, নির্দিষ্ট Element বাদ দেওয়া এবং Parent Element-এর State অনুযায়ী Child বা Parent Select করা যায়।
 
-### 1.4.1 ()
+### 1.4.1 :not()
 
 কোনো নির্দিষ্ট Selector বাদ দিয়ে বাকি Element Select করার জন্য `:not()` ব্যবহার করা হয়।
 
@@ -806,7 +805,7 @@ input:not([type="submit"]) {
 - নির্দিষ্ট Element বাদ দিয়ে Design তৈরি।
 - Form Element Filter করা।
 
-### 1.4.2 ()
+### 1.4.2 :is()
 
 একাধিক Selector-কে একসঙ্গে Group করে Style Apply করার জন্য `:is()` ব্যবহার করা হয়।
 
@@ -850,7 +849,7 @@ h3 {
 
 এখানে `.card`-এর ভিতরের `h2`, `p` এবং `a` Element Select হবে।
 
-### 1.4.3 ()
+### 1.4.3 :where()
 
 একাধিক Selector Group করে Style Apply করার জন্য `:where()` ব্যবহার করা হয়।
 
@@ -889,7 +888,7 @@ h1 {
 
 এখানে `h1` Red হবে, কারণ `:where()`-এর Specificity Zero।
 
-### 1.4.4 ()
+### 1.4.4:has()
 
 কোনো Parent Element-এর মধ্যে নির্দিষ্ট Child বা Descendant Element আছে কি না, অথবা কোনো Relationship Match করছে কি না, তার ভিত্তিতে Element Select করার জন্য `:has()` ব্যবহার করা হয়।
 
