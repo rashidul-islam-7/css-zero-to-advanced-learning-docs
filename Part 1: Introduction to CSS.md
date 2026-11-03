@@ -376,7 +376,8 @@ h1 + p {
 - + চিহ্ন দ্বারা ঠিক পরের Sibling Element-কে Select করা হয়।
 - p হলো Target Element।
 - font-weight: bold; দ্বারা Paragraph-এর Text Bold করা হয়েছে।
-Output: <h1>-এর ঠিক পরেই থাকা প্রথম <p> Element-এর Text Bold হবে। দ্বিতীয় <p> এবং বাইরের Paragraph-এ এই Style Apply হবে না।
+  
+Output: <h1> এর ঠিক পরেই থাকা প্রথম <p> Element-এর Text Bold হবে। দ্বিতীয় <p> এবং বাইরের Paragraph-এ এই Style Apply হবে না।
 
 ### Note:
 - Adjacent Sibling Selector-এ + চিহ্ন ব্যবহার করা হয়।
@@ -418,7 +419,8 @@ h1 ~ p {
 - ~ (টিল্ড) চিহ্ন দিয়ে পরবর্তী Matching Sibling Element-গুলো Select করা হয়।
 - p হলো Target Element।
 - color: darkblue; দ্বারা নির্বাচিত Paragraph-এর Text-এর রং গাঢ় নীল করা হয়েছে।
-Output: <h1>-এর পরে একই Parent-এর অধীনে থাকা সব <p> Element-এর Text গাঢ় নীল হবে। তবে <section>-এর ভেতরে থাকা <p> Select হবে না, কারণ সেটি <h1>-এর সরাসরি Sibling নয়।
+  
+Output: <h1> এর পরে একই Parent-এর অধীনে থাকা সব <p> Element-এর Text গাঢ় নীল হবে। তবে <section> এর ভেতরে থাকা <p> Select হবে না, কারণ সেটি <h1> এর সরাসরি Sibling নয়।
 
 ### Note:
 - General Sibling Selector-এ ~ চিহ্ন ব্যবহার করা হয়।
@@ -426,7 +428,7 @@ Output: <h1>-এর পরে একই Parent-এর অধীনে থাক�
 - Target Element-গুলো নির্দিষ্ট Element-এর পরে থাকতে হবে।
 - মাঝখানে অন্য Element থাকলেও পরবর্তী Matching Sibling Select হতে পারে।
 
-**নোট:** General Sibling Selector (`~`) এবং Adjacent Sibling Selector (`+`)-এর মধ্যে পার্থক্য হলো—`+` শুধু ঠিক পরের Sibling-কে Select করে, আর `~` পরবর্তী সব Matching Sibling-কে Select করে।
+**নোট:** General Sibling Selector (`~`) এবং Adjacent Sibling Selector (`+`) এর মধ্যে পার্থক্য হলো `+` শুধু ঠিক পরের Sibling-কে Select করে, আর `~` পরবর্তী সব Matching Sibling কে Select করে।
 
 ---
 
