@@ -8,16 +8,16 @@
 
 এই Phase-এ আমরা শিখব কীভাবে HTML Element-এর Size, Spacing, Border এবং Text Design নিয়ন্ত্রণ করতে হয়।
 
-এই Phase শেষ করার পর তুমি পারবে:
+এই Phase শেষ করার পর:
 
-- CSS Box Model ভালোভাবে বুঝতে।
-- HTML Element-এর Width ও Height নিয়ন্ত্রণ করতে।
-- Margin, Padding এবং Border ব্যবহার করতে।
-- Element-এর Shape ও Outline তৈরি করতে।
-- CSS Typography ব্যবহার করে Text সুন্দরভাবে Design করতে।
-- Google Fonts এবং Custom Fonts ব্যবহার করতে।
-- Box Shadow ও Text Shadow তৈরি করতে।
-- বাস্তব Website-এর বিভিন্ন UI Component তৈরি করতে।
+- CSS Box Model ভালোভাবে বুঝতে পারবে।
+- HTML Element-এর Width ও Height নিয়ন্ত্রণ করতে পারবে।
+- Margin, Padding এবং Border ব্যবহার করতে পারবে।
+- Element-এর Shape ও Outline তৈরি করতে পারবে।
+- CSS Typography ব্যবহার করে Text সুন্দরভাবে Design করতে পারবে।
+- Google Fonts এবং Custom Fonts ব্যবহার করতে পারবে।
+- Box Shadow ও Text Shadow তৈরি করতে পারবে।
+- বাস্তব Website-এর বিভিন্ন UI Component তৈরি করতে পারবে।
 
 ---
 
